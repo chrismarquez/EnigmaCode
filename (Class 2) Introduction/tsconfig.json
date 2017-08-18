@@ -6,7 +6,7 @@
     "sourceMap": true, // Generates code for debugging
     "watch": true, // Tells the compiler to compile again if the code changes
     "strict": true, // Forces the developer to write code with good practices
-    "ourDir": "dist/" // Output directory name for compiled files
+    "outDir": "dist/" // Output directory name for compiled files
   },
   "include": [ // Tells the compiler from what folder compile files
     "src/**/*"
