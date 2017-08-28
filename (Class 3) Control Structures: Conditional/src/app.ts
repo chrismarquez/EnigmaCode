@@ -13,7 +13,6 @@ try {} catch(e){} finally {} // Try and catch are used for exception handling
 const g = 3; // Const is used to declare constant variables
 class X {} // Declares a new class
 export default class Y {} // export and default are used to handle modules
-<<<<<<< HEAD
 async function Z() {await ""} // async/await are used to handle asynchronous operations
 
 let temp: number = 24;
@@ -43,6 +42,3 @@ if (line == "Do it") {
 }
 
 
-=======
-async function Z() {await ""} // async/await are used to handle asynchronous operations
->>>>>>> dedd4bdc1929b9959812e16d5648eac194069b9d
