@@ -33,12 +33,12 @@ if (x > 0) {
     console.log("zero");
 }
 
-let line: string = "Do it";
+import * as Readline from "readline-sync"
+
+let line: string = Readline.question("Input something: ");
 
 if (line == "Do it") {
     console.log("I am the senate");
 } else {
     console.log("You underestimate my power");
 }
-
-
